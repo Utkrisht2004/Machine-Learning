@@ -9,6 +9,7 @@ import matplotlib.pyplot as plt
 
 df = pd.read_csv(r'C:\Users\Utkrisht Singh Parma\Downloads\archive (1)\thyroid_cancer_risk_data.csv') 
 
+#Print overall information. Usually 5 c-6 columns as standard
 print(df.head())  
 print(df.info()) 
 print(df.describe()) 
